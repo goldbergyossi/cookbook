@@ -1,0 +1,42 @@
+<form action= '/recipes' method= 'POST'>
+
+<div>
+<label for="Recipes"> Name </label>
+<input type="text" name="name" id="Recipes"/>
+</div>
+
+<div>
+<label for="desc"> Description </label>
+<textarea row='5' col="25" name="desc" id="desc"></textarea>
+</div>
+
+<div>
+<label for="prepTime"> Prep-Time</label>
+<input type="number" name= "preptime" id="prepTime"> 
+</div>
+
+<div>
+<label for="url"> Image URL </label>
+<input type="url" name="url" id="url">
+</div>
+
+
+      <label>
+        <input type="checkbox" name="type[]" value="vegan">
+        <span>Vegan</span>
+      </label>
+
+      <label>
+        <input type="checkbox" name="type[]" value="Fat">
+        <span>Low-Fat</span>
+      </label>
+
+      <label>
+        <input type="checkbox" name="type[]" value="kosher">
+        <span>Kosher</span>
+      </label>
+
+
+<input type="submit" value= "Submit">
+
+</form>

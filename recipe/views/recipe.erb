@@ -1,0 +1,29 @@
+<h1><%= @title %></h1>
+
+<div>
+<a href="/edit/<%= @recipe.id%>"> edit </a>
+<hr>
+
+<form action='/delete/<%=@recipe.id%>' method='POST'>
+<input type='hidden' name='_method' value='delete'>
+<input type='submit' value='Delete Recipe'>
+</form>
+</div>
+
+
+
+<hr>
+
+<p>
+<img src= "<%= @recipe.image %>">
+</p>
+
+<p>
+Preptime: <%= @recipe.prep_time %>
+</p>
+
+
+
+<p>
+<%= @recipe.description %>
+</p>

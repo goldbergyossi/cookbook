@@ -1,0 +1,32 @@
+body{
+    color: purple;
+
+}
+
+header{background-color: grey;
+}
+
+#cookbook_image{
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+}
+
+h1{
+    text-align: center; 
+    
+}
+
+.recipe_ul{
+    margin-left: 44%;
+}
+
+footer{
+    background-color: lightgreen;
+    height: 50px;
+    text-align: center;
+    text-emphasis: circle
+}
+
+main{
+      
+}

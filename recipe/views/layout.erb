@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/style.css">
+    <title>CookBook &raquo; <%= @title %></title>
+  </head>
+  <body>
+    <header>
+      
+      <a href="/"> <img src="/cookbook.png" alt="Cookbook Icon" id="cookbook_image"></a>
+    </header>
+​
+    <main>
+      <%= yield %>
+    </main>
+​
+    <footer>
+      <a href="/about_us">About Us</a>
+      |
+      <a href="/contact_us">Contact Us</a>
+      |
+      <a href="/legal">Fine Print</a>
+        |
+      <a href="/form">Add Recipe</a>
+    </footer>
+  </body>
+</html>
